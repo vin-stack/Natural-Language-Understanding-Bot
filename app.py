@@ -1,6 +1,8 @@
 import streamlit as st
 import speech_recognition as sr
 import spacy
+python -m spacy download en_core_web_sm
+
 from textblob import TextBlob
 import nltk
 nltk.download('brown')
